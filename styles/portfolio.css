@@ -76,9 +76,8 @@ nav a{
     color: #181818;
     font-size: 35px;
     font-weight: 700;   
-
 }
-.section-despriction{
+.section-description{
     color: #757575;
     text-align: center;
     font-size: 18px;
@@ -86,7 +85,6 @@ nav a{
 main{
     max-width: 1140px;
     margin: 0 auto;
-
 }
 .about-info-container{
     display: flex;
@@ -95,5 +93,7 @@ main{
 .about-info{
     text-align: center;
 
-
+}
+#what-id-do{
+    padding: 30px 150px;
 }
