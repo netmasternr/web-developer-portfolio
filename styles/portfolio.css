@@ -1,6 +1,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
 nav{
     display: flex;
     color:rgb(0, 0, 0);
@@ -8,26 +9,32 @@ nav{
     align-items: center;
     margin: 0 120px;
 }
+
 .mary{
     color:rgb(9, 8, 8) ;
     font-size: 45px;
     font-weight: 800;
 }
+
 .text-primary{
     color: rgb(255, 106, 0);
 }
+
 nav > ul{
     display: flex;
     align-items: center;
 }
+
 nav li{
     list-style: none;
     margin-right: 52px;  
 }
+
 nav a{
     text-decoration: 0;
     color:rgb(87, 46, 2);
 }
+
 .btn-primary{
     background-color: orange;
     border-radius: 5px;
@@ -38,6 +45,7 @@ nav a{
     font-weight: 700;
     padding: 15px 35px;
 }
+
 .header{
     background-color: #fff8f3 ;
     background-image: url("../images/header_bg.png") ;
@@ -45,19 +53,23 @@ nav a{
     background-position: bottom right;
 
 }
+
 .banner{
     padding: 30px 30px 0px 150px ;
     display: flex;
 }
+
 .banner .profile-pic{
     width: 500px;
 }
+
 .banner-greeting{
     font-size: 45px;
    color: #474747;
    margin-bottom: 0;
     
 }
+
 .banner-title{
     font-size: 85px;
     font-weight: 700;
@@ -65,35 +77,67 @@ nav a{
     margin-top: 5px;
     margin-bottom: 20px;
 }
+
 .about{
     padding: 130px;
    background:#FFF8F3 ;
    border-radius: 10px;
-   margin-top: 130px;
+  margin-top: 130px;
 }
+
 .section-title{
     text-align: center;
     color: #181818;
     font-size: 35px;
     font-weight: 700;   
 }
+
 .section-description{
     color: #757575;
     text-align: center;
     font-size: 18px;
 }
+
 main{
     max-width: 1140px;
     margin: 0 auto;
+
 }
+main section{
+    margin-top: 120px;
+
+}
+
 .about-info-container{
     display: flex;
     justify-content: space-around;
 }
+
 .about-info{
     text-align: center;
 
 }
+
 #what-id-do{
     padding: 30px 150px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px; 
+}
+
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+/* resume section style */
+
+.resume-column-title{
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
 }
