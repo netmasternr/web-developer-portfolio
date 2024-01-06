@@ -6,6 +6,7 @@ nav{
     color:rgb(0, 0, 0);
     justify-content:space-between;
     align-items: center;
+    margin: 0 120px;
 }
 .mary{
     color:rgb(9, 8, 8) ;
@@ -13,7 +14,7 @@ nav{
     font-weight: 800;
 }
 .text-primary{
-    color: orange;
+    color: rgb(255, 106, 0);
 }
 nav > ul{
     display: flex;
@@ -25,7 +26,7 @@ nav li{
 }
 nav a{
     text-decoration: 0;
-    color:rgb(221, 128, 34);
+    color:rgb(87, 46, 2);
 }
 .btn-primary{
     background-color: orange;
@@ -36,6 +37,16 @@ nav a{
     font-style: normal;
     font-weight: 700;
     padding: 15px 35px;
+}
+.header{
+    background-color: #fff8f3 ;
+}
+.banner{
+    padding: 30px 30px 30px 150px ;
+    display: flex;
+}
+.banner .profile-pic{
+    width: 500px;
 }
 
 
